@@ -1,0 +1,18 @@
+﻿body {
+    background-color: white;
+    color: black;
+}
+
+.well-background {
+    background-color: white;
+    border: none;
+}
+
+/*img {
+    display:none;
+}*/
+
+
+.page-header {
+    padding-top: 0;
+}
