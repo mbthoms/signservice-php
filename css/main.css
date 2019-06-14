@@ -376,6 +376,9 @@ a.back-to-top {
 .contact-submit-btn {
     margin-bottom: 2rem;
 }
+.g-recaptcha {
+  text-align: center;
+}
 
 /*Footer =====================================================================*/
 footer {

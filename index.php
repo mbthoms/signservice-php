@@ -44,7 +44,7 @@
                 </div>
                 <div class="panel-body">
                     <p>At Sign Service Label Products we have been Producing Quality Labels & decals to the TRADE for 30 Years. We are Family Owned & operated and 100% Canadian Owned.</p>
-                    <a href="about.aspx" class="btn btn-warning">Read More...</a>
+                    <a href="about.php" class="btn btn-warning">Read More...</a>
                 </div>
                 <!-- End of Panel Body -->
             </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="panel-body">
                     <p>Our order desk is open 8am - 5pm Monday to Friday (except holidays) and our Art Department is able to accept your PC & MAC files for colour separating, trapping and stepping. Quotations are given back within 24 hours<a href="#more-info" class="superscript">[2]</a> and delivery is from two to three weeks without rush charges.</p>
-                    <a href="contact.aspx" class="btn btn-warning">Contact Us</a>
+                    <a href="contact.php" class="btn btn-warning">Contact Us</a>
                 </div>
                 <!-- End of Panel Body -->
             </div>

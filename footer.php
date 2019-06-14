@@ -53,7 +53,7 @@
       </div>
 
       <div class="text-center copyright-info container">
-          <p>Copyright &copy; 1995 - 2016 <a href="http://signservice.com/">Sign Service Label Products</a> a division of 604731 Ontario Inc.</p>
+          <p>Copyright &copy; 1995 - <?php echo date("Y"); ?> <a href="http://signservice.com/">Sign Service Label Products</a> a division of 604731 Ontario Inc.</p>
       </div>
   </footer>
   <!-- Back to Top button -->

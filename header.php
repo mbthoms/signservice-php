@@ -13,7 +13,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.aspx">
+                <a class="navbar-brand" href="index.php">
                     <svg width="220" height="55">
                         <image xlink:href="img/sign_service_logo.svg" src="img/sign_service_logo.png" width="220" height="56" />
                     </svg></a>
