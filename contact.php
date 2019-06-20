@@ -14,13 +14,13 @@ $subject = 'New message from Sign Service contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
+$fields = array('name' => 'Contact Name', 'companyName' => 'company Name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = '<i class="fa fa-check-circle-o fa-lg"></i> Your Message has been sent. Thank you, I will get back to you soon!';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$errorMessage = 'Something went wrong! Please try again.';
 
 // ReCaptch Secret
 $recaptchaSecret = '6LdnW6UUAAAAAE_OAFAdzU4AuAOrOxK8OQAwyiB7';
@@ -54,7 +54,7 @@ try {
 
         // everything went well, we can compose the message, as usually
 
-        $emailText = "You have a new message from your contact form\n=============================\n";
+        $emailText = "New Message - Sign Service Contact Form\n\n";
 
         foreach ($_POST as $key => $value) {
             // If the field exists in the $fields array, include it in the email

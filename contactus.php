@@ -12,7 +12,7 @@
       </div>
       <div class="row">
           <section class="col-sm-12 col-md-12 col-lg-12">
-              <p>We would like to hear from you, you can use the contact form below or use any of the contact information below to contact us.</p>
+              <p>We would like to hear from you, you can use the contact form or the information below to contact us.</p>
           </section>
       </div>
       <!-- ================================================================================================
@@ -102,14 +102,14 @@
                    <div class="col-md-6">
                        <div class="form-group">
                            <label for="form_name">Name *</label>
-                           <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                           <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name." required="required" data-error="Firstname is required.">
                            <div class="help-block with-errors"></div>
                        </div>
                    </div>
                    <div class="col-md-6">
                        <div class="form-group">
-                           <label for="form_lastname">Company Name *</label>
-                           <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                           <label for="form_companyName">Company Name *</label>
+                           <input id="form_companyName" type="text" name="companyName" class="form-control" placeholder="Please enter your company name." required="required" data-error="Company Name is required.">
                            <div class="help-block with-errors"></div>
                        </div>
                    </div>
@@ -118,14 +118,14 @@
                    <div class="col-md-6">
                        <div class="form-group">
                            <label for="form_email">Email *</label>
-                           <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                           <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email." required="required" data-error="Valid email is required.">
                            <div class="help-block with-errors"></div>
                        </div>
                    </div>
                    <div class="col-md-6">
                        <div class="form-group">
                            <label for="form_phone">Phone Number *</label>
-                           <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone" required="required" data-error="Valid Phone Number is required.">
+                           <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number." required="required" data-error="Valid Phone Number is required.">
                            <div class="help-block with-errors"></div>
                        </div>
                    </div>
@@ -134,7 +134,7 @@
                    <div class="col-md-12">
                        <div class="form-group">
                            <label for="form_message">Message *</label>
-                           <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                           <textarea id="form_message" name="message" class="form-control" placeholder="Write message here." rows="4" required="required" data-error="Please leave us a message."></textarea>
                            <div class="help-block with-errors"></div>
                        </div>
                    </div>
@@ -148,7 +148,7 @@
                    </div>
 
                    <div class="col-md-12">
-                       <input type="submit" class="btn btn-success btn-send" value="Send message">
+                       <button type="submit" class="btn btn-success btn-send"><i class="fa fa-send fa-lg"></i> Send message</button>
                    </div>
                </div>
 
