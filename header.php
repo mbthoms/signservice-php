@@ -25,7 +25,7 @@
                     <li><a href="equipment.php">Equipment</a></li>
                     <li><a href="stocks.php">Stocks</a></li>
                     <li><a href="products.php">Products</a></li>
-                    <li><a href="contact.php">Contact Us</a></li>
+                    <li><a href="contactus.php">Contact Us</a></li>
                 </ul>
             </div>
             <!-- End of nav-collapse -->

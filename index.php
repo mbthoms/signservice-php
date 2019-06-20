@@ -59,7 +59,7 @@
                 </div>
                 <div class="panel-body">
                     <p>Our order desk is open 8am - 5pm Monday to Friday (except holidays) and our Art Department is able to accept your PC & MAC files for colour separating, trapping and stepping. Quotations are given back within 24 hours<a href="#more-info" class="superscript">[2]</a> and delivery is from two to three weeks without rush charges.</p>
-                    <a href="contact.php" class="btn btn-warning">Contact Us</a>
+                    <a href="contactus.php" class="btn btn-warning">Contact Us</a>
                 </div>
                 <!-- End of Panel Body -->
             </div>

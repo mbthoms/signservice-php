@@ -46,7 +46,7 @@
                   <span class="fa fa-envelope-o fa-3x text-center" aria-hidden="true"></span>
                   <h3>Email</h3>
                   <div class="padding-top">
-                      <a href="mailto:sales@signservice.com">sales@signservice.com</a>
+                      <p>sales@signservice.com</p>
                   </div>
               </div>
           </section>
@@ -59,11 +59,13 @@
   <!-- Back to Top button -->
   <a href="#" class="back-to-top">Back to Top</a>
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <!-- Back to top Button -->
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <script src="validator.js"></script>
+  <script src="contact.js"></script>
   <script>
+
       var amountScrolled = 300;
 
       $(window).scroll(function () {
